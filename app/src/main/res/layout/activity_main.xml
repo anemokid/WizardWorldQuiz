@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="c4q.nyc.wizardingworldharrypotter.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@id/welcome_textview"
+        style="@style/HarryPotterTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/HP"/>
+
+    </LinearLayout>
+
+    <!-- BUTTON + TEXTVIEW LINEAR LAYOUT  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <!-- SORTING QUIZ BUTTON -->
+        <TextView
+            android:id="@id/sortingQuiz_textview"
+            style="@style/TextTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sortingQuiz_tv_txt" />
+
+        <Button
+            android:id="@id/sortingQuiz_button"
+            style="@style/ButtonTheme"
+            android:layout_width="400dp"
+            android:layout_height="45dp"
+            android:text="@string/sortingQuiz_buttonText" />
+
+        <!-- CHARACTER QUIZ BUTTON-->
+        <TextView
+            android:id="@id/characterQuiz_textview"
+            style="@style/TextTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/characterQuiz_tv_txt" />
+
+        <Button
+            android:id="@id/characterQuiz_button"
+            style="@style/ButtonTheme"
+            android:layout_width="400dp"
+            android:layout_height="45dp"
+            android:text="@string/characterQuiz_buttonText" />
+
+        <!-- PATRONUS QUIZ BUTTON-->
+        <TextView
+            android:id="@id/patronusQuiz_textview"
+            style="@style/TextTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/patronusQuiz_tv_txt" />
+
+        <Button
+            android:id="@+id/patronusQuiz_button"
+            style="@style/ButtonTheme"
+            android:layout_width="400dp"
+            android:layout_height="45dp"
+            android:text="@string/patronusQuiz_buttonText" />
+
+        <!-- TRIVIA QUIZ BUTTON-->
+        <TextView
+            android:id="@id/trivia_textview"
+            style="@style/TextTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/trivia_tv_txt" />
+
+        <Button
+            android:id="@id/trivia_button"
+            style="@style/ButtonTheme"
+            android:layout_width="400dp"
+            android:layout_height="45dp"
+            android:text="@string/trivia_buttonText" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

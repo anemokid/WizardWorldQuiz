@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainActivity Ids: -->
+        <!-- button ids : -->
+    <item name="sortingQuiz_button" type="id" />
+    <item name="characterQuiz_button" type="id"/>
+    <item name="patronusQuiz_button" type="id" />
+    <item name="trivia_button" type="id"/>
+        <!-- text view ids : -->
+    <item name="sortingQuiz_textview" type ="id"/>
+    <item name="characterQuiz_textview" type="id"/>
+    <item name="patronusQuiz_textview" type="id"/>
+    <item name="trivia_textview" type="id"/>
+    <item name="welcome_textview" type="id"/>
+
+    <!-- Sorting Quiz Activity Ids:-->
+    <item name="question" type="id" />
+    <item name="choice1_ctv" type="id"/>
+    <item name="choice2_ctv" type="id"/>
+    <item name="choice3_ctv" type="id"/>
+    <item name="choice4_ctv" type="id"/>
+
+
+    <!-- splash image view -->
+    <item name="splash_imageview" type="id"/>
+
+
+
+
+</resources>

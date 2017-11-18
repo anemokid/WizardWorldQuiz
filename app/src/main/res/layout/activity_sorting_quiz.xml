@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="c4q.nyc.wizardingworldharrypotter.SortingQuizActivity">
+
+    <TextView
+        android:id="@id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@id/choice1_ctv"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp" />
+
+        <Button
+            android:id="@id/choice2_ctv"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@id/choice3_ctv"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@id/choice4_ctv"
+            android:layout_marginTop="60dp"
+            android:layout_width="320dp"
+            android:layout_height="55dp" />
+    </LinearLayout>
+
+</RelativeLayout>

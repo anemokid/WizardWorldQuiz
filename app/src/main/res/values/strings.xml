@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">The Wizarding World of Harry Potter</string>
+    <string name="HP">Welcome To The Wizarding World of Harry Potter</string>
+
+    <!--  quiz button text : -->
+    <string name="sortingQuiz_tv_txt">Hogwarts House Sorting Quiz</string>
+    <string name="characterQuiz_tv_txt">Harry Potter Character Quiz</string>
+    <string name="patronusQuiz_tv_txt">The Patronus Quiz</string>
+    <string name="trivia_tv_txt">Harry Potter Trivia</string>
+
+    <!-- quiz textview, text :  -->
+    <string name="sortingQuiz_buttonText">Which Hogwarts House Would You Be Sorted Into? </string>
+    <string name="characterQuiz_buttonText">Which Harry Potter Character Are You?</string>
+    <string name="patronusQuiz_buttonText">What Is Your Patronus?</string>
+    <string name="trivia_buttonText">How Well Do You Know The Wizarding World?</string>
+
+    <!-- CONTENT DESCRIPTION : For splash page -->
+    <string name="content">This Holds the Beginning Image For Our Splash Page. </string>
+
+    <!-- HufflePuff choices: -->
+    <string-array name="hufflepuff_choices">
+        <item>HPchoice1</item>
+        <item>HPchoice2</item>
+        <item>HPchoice3</item>
+        <item>HPchoice4</item>
+        <item>HPchoice5</item>
+    </string-array>
+
+    <!-- Gryffindor choices: -->
+    <string-array name="gryffindor_choices">
+        <item>Gchoice1</item>
+        <item>Gchoice2</item>
+        <item>Gchoice3</item>
+        <item>Gchoice4</item>
+        <item>Gchoice5</item>
+    </string-array>
+
+    <!-- Ravenclaw choices: -->
+    <string-array name="ravenclaw_choices">
+        <item>Rchoice1</item>
+        <item>Rchoice2</item>
+        <item>Rchoice3</item>
+        <item>Rchoice4</item>
+        <item>Rchoice5</item>
+    </string-array>bh
+
+</resources>
